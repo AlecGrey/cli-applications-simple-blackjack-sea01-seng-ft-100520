@@ -40,10 +40,9 @@ def hit?(total)
   
   if user_input == 'h'
     total += deal_card
+  else
+    return total
   end
-  
-  display_card_total(total)
-  return total
 end
 
 def invalid_command

@@ -61,6 +61,4 @@ def runner
   end
   end_game(total)
 end
-
-runner
     

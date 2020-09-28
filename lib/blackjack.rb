@@ -29,7 +29,7 @@ def initial_round
 end
 
 def hit?(total)
-  puts prompt_user
+  prompt_user
   user_input = get_user_input
   
   while user_input != 'h' && user_input != 's' do
